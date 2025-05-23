@@ -9,7 +9,7 @@ import traceback
 app = Flask(__name__)
 
 # ✅ Load Google Gemini API Key from Environment Variable
-genai.configure(api_key="AIzaSyCKx7VQ7VgmzMk2WO68IMh0uVcfNcwovsY")
+genai.configure(api_key="Gemini_API_Key")
 
 
 def generate_sql(nl_query, db_type):
